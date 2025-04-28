@@ -1,9 +1,16 @@
 import React from 'react'
-// hnimport PrimeChecker from './Components/PrimeChecker'
+import PrimeChecker from './Components/PrimeChecker'
+import FibonacciSeries from './Components/FibonaccieSeries'
 
 const App = () => {
   return (
+    <>
+        <h1>-------------------------------------------------------------------------------------------------------------------</h1>
     <PrimeChecker />
+    <h1>--------------------------------------------------------------------------------------------------------------------</h1>
+    <FibonacciSeries />
+    
+    </>
   )
 }
 
