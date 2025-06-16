@@ -377,18 +377,18 @@
 
 
 
-function isPrime(num) {
-  if (num < 2) return false;
-  for (let i = 2; i <= num/2; i++) {
-    if (num % i === 0) return false;
-  }
-  return true;
-}
-for (let i = 1; i <= 100; i++) {
-  if (isPrime(i)) {
-    console.log(i);
-  }
-}
+// function isPrime(num) {
+//   if (num < 2) return false;
+//   for (let i = 2; i <= num/2; i++) {
+//     if (num % i === 0) return false;
+//   }
+//   return true;
+// }
+// for (let i = 1; i <= 100; i++) {
+//   if (isPrime(i)) {
+//     console.log(i);
+//   }
+// }
 
 // function isPrime(num){
 //   if (num<2) return false;
@@ -467,3 +467,64 @@ for (let i = 1; i <= 100; i++) {
 // weakSet.add(obj);
 
 
+// let str = "hello";
+// let reverse = "";
+
+// for (let i = str.length - 1; i >= 0; i--) {
+//   reverse += str[i];
+// }
+
+// console.log(reverse);  // Output: "olleh"
+
+// let str = "hello Miss"
+// let vowels  = "aeiouAEIOU"
+// let result = ""
+// for(let i =0 ; i<=str.length ; i++){
+// if( str[i] === 'a' || str[i] === 'A' || str[i] === 'e' || str[i] === 'E' || str[i] === 'i' || str[i] === 'I' || str[i] === 'o' || str[i] === 'O'  || str[i] === 'u' || str[i] === 'U'   ){
+//   result += str[i]
+// }}
+
+// console.log(result)
+
+
+
+// let arr = [1,2,1,4,1]
+
+// let result = arr.filter((index, i)=>{
+//  return arr.indexOf(index) === i
+// })
+
+// console.log(result)
+
+// function checkPal(num){
+
+//   let convert = num.toString()
+
+//   let result = convert.split('').reverse().join('')
+//   return result === convert
+// }
+
+// console.log(checkPal(1212))
+
+// let a =0;
+// let b =1;
+
+
+// for(let i=0; i<=10 ; i++){
+//  console.log(a);
+//  let next = a+b;
+//  a=b;
+//  b=next
+// }
+
+// let arr =[1,2,5,8]
+
+// let max = arr[0];
+
+// arr.filter((num)=>{
+// if(num > max){
+//   max=num
+// }
+// })
+
+// console.log(max)
